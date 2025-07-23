@@ -118,6 +118,18 @@
 
 .memberPhoto {
   margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.memberAvatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border: 3px solid #f1f5f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .photoPlaceholder {

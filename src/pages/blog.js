@@ -12,8 +12,8 @@ export default function Blog() {
         permalink: '/articles/asi4ai-vision-post',
         title: 'ASI for AI - Igniting the Intelligence Explosion',
         description: 'A comprehensive manifesto outlining how AI can accelerate its own development through recursive self-improvement. We present ASI4AI: turning the intelligence explosion from science fiction into an engineering roadmap, built on five research pillars that transform linear progress into exponential growth.',
-        formattedDate: 'July 20, 2025',
-        readingTime: 7,
+        formattedDate: 'July 24, 2025',
+        readingTime: 9,
         tags: [
           { label: 'ASI' },
           { label: 'AI Research' },
@@ -21,58 +21,7 @@ export default function Blog() {
           { label: 'Superintelligence' }
         ]
       }
-    },
-    // {
-    //   metadata: {
-    //     permalink: '/articles/first-blog-post',
-    //     title: 'First Blog Post',
-    //     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies.',
-    //     formattedDate: 'May 28, 2019',
-    //     readingTime: 1,
-    //     tags: [
-    //       { label: 'docusaurus' }
-    //     ]
-    //   }
-    // },
-    // {
-    //   metadata: {
-    //     permalink: '/articles/long-blog-post',
-    //     title: 'Long Blog Post',
-    //     description: 'This is the summary of a very long blog post, which would be too long to display entirely.',
-    //     formattedDate: 'May 29, 2019',
-    //     readingTime: 2,
-    //     tags: [
-    //       { label: 'hello' },
-    //       { label: 'docusaurus' }
-    //     ]
-    //   }
-    // },
-    // {
-    //   metadata: {
-    //     permalink: '/articles/mdx-blog-post',
-    //     title: 'MDX Blog Post',
-    //     description: 'Blog posts support Docusaurus Markdown features, such as MDX.',
-    //     formattedDate: 'August 1, 2021',
-    //     readingTime: 1,
-    //     tags: [
-    //       { label: 'docusaurus' }
-    //     ]
-    //   }
-    // },
-    // {
-    //   metadata: {
-    //     permalink: '/articles/welcome',
-    //     title: 'Welcome',
-    //     description: 'Docusaurus blogging features are powered by the blog plugin.',
-    //     formattedDate: 'August 26, 2021',
-    //     readingTime: 2,
-    //     tags: [
-    //       { label: 'facebook' },
-    //       { label: 'hello' },
-    //       { label: 'docusaurus' }
-    //     ]
-    //   }
-    // }
+    }
   ];
 
   return (

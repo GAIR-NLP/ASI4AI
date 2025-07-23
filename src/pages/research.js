@@ -15,7 +15,7 @@ const researchDirections = {
     projects: [
       {
         title: 'Deep Cognition',
-        description: 'Developing AI systems that can engage in natural conversations using text, voice, and visual cues simultaneously.',
+        description: 'We introduce Deep Cognition, a system that transforms the human role from giving instructions to cognitive oversight.',
         date: '22 July 2025',
         image: '/img/deep-cognition.png',
         link: 'https://opensii.ai',
@@ -33,8 +33,8 @@ const researchDirections = {
     projects: [
       {
         title: 'AlphaGo Moment for Model Architecture Discovery',
-        description: 'Investigating efficient alternatives to attention mechanisms for long-sequence modeling and reasoning.',
-        date: '25 Jun 2025',
+        description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',
+        date: '24 Jun 2025',
         image: '/img/asi-arch.png',
         link: 'https://github.com/GAIR-NLP/ASI-Arch',
         external: true
@@ -44,14 +44,22 @@ const researchDirections = {
   foundation: {
     id: 'foundation',
     title: 'Foundation Model',
-    subtitle: 'Next-Generation AI Systems',
+    subtitle: 'Next-Generation Foundation Models',
     description: 'Building foundation models that demonstrate enhanced reasoning, understanding, and generalization across diverse domains and tasks.',
     icon: '',
     color: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
     projects: [
       {
+        title: 'MegaScience',
+        description: 'Pushing the frontiers of post-training datasets for science reasoning.',
+        date: '23 July 2025',
+        image: '/img/megascience.png',
+        link: 'https://github.com/GAIR-NLP/MegaScience',
+        external: true
+      },
+      {
         title: 'OctoThinker',
-        description: 'Our flagship foundation model series featuring advanced reasoning capabilities and multimodal understanding.',
+        description: 'Exploring how different early pre(mid)-training strategies could bring impact to post-training stages, especially during the period of Reinforcement Learning (RL).',
         date: '3 March 2025',
         image: '/img/octothinker.png',
         link: 'https://github.com/GAIR-NLP/OctoThinker',
@@ -59,19 +67,12 @@ const researchDirections = {
       },
       {
         title: 'Thinking with Generated Images',
-        description: 'Specialized foundation models designed for scientific discovery and hypothesis generation.',
+        description: 'A single LMM (Large Multimodal Model) that spontaneously generates and reasons with intermediate visual thoughts via a native long-multimodal thought process.',
         date: '28 May 2025',
         image: '/img/thinking_with_generated_images.png',
         link: 'https://github.com/GAIR-NLP/thinking-with-generated-images',
         external: true
-      },
-      // {
-      //   title: 'Efficient Foundation Models',
-      //   description: 'Creating powerful foundation models with reduced computational requirements for broader accessibility.',
-      //   date: '14 June 2025',
-      //   image: '/img/undraw_docusaurus_mountain.svg',
-      //   link: '/posts/towards-asi-for-ai'
-      // }
+      }
     ]
   },
   agents: {
@@ -84,7 +85,7 @@ const researchDirections = {
     projects: [
       {
         title: 'Efficient Agent Training for Computer Use',
-        description: 'A comprehensive platform for deploying and managing autonomous AI agents across various domains.',
+        description: 'An efficient agent training framework that elicits strong computer use capabilities with remarkable data efficiency.',
         date: '20 May 2025',
         image: '/img/pc-agent-e.png',
         link: 'https://gair-nlp.github.io/PC-Agent-E/',
@@ -92,7 +93,7 @@ const researchDirections = {
       },
       {
         title: 'DeepResearcher',
-        description: 'A comprehensive platform for deploying and managing autonomous AI agents across various domains.',
+        description: 'Scaling deep research via reinforcement learning in real-world environments.',
         date: '4 Apr 2025',
         image: '/img/deepresearcher.png',
         link: 'https://github.com/GAIR-NLP/DeepResearcher',
@@ -111,7 +112,7 @@ const researchDirections = {
       {
         title: 'ResearcherBench',
         description: 'A benchmark and evaluation framework for evaluating deep AI research systems on the frontiers of scientific inquiry.',
-        date: '21 July 2025',
+        date: '22 July 2025',
         image: '/img/researcherbench.png',
         link: 'https://researcherbench.github.io/',
         external: true

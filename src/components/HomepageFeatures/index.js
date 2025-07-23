@@ -6,12 +6,22 @@ import styles from './styles.module.css';
 const NewsList = [
   {
     title: 'AlphaGo Moment for Model Architecture Discovery',
-    date: '25 July 2025',
+    date: '24 Jun 2025',
     category: 'Model Architecture',
     researchDirection: 'Model Architecture',
-    description: 'A comprehensive platform for deploying and managing autonomous AI agents across various domains.',
+    description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',
     image: '/img/asi-arch.png',
     link: 'https://github.com/GAIR-NLP/ASI-Arch',
+    external: true
+  },
+  {
+    title: 'MegaScience',
+    date: '23 July 2025',
+    category: 'Foundation Model',
+    researchDirection: 'Foundation Model',
+    description: 'Pushing the frontiers of post-training datasets for science reasoning.',
+    image: '/img/megascience.png',
+    link: 'https://github.com/GAIR-NLP/MegaScience',
     external: true
   },
   {
@@ -19,19 +29,39 @@ const NewsList = [
     date: '22 July 2025',
     category: 'Interaction as Intelligence',
     researchDirection: 'Interaction',
-    description: 'Our flagship foundation model series featuring advanced reasoning capabilities and multimodal understanding.',
+    description: 'We introduce Deep Cognition, a system that transforms the human role from giving instructions to cognitive oversight.',
     image: '/img/deep-cognition.png',
     link: 'https://opensii.ai',
     external: true
   },
   {
-    title: 'ResearcherBench: AI Evaluation Framework',
-    date: '21 July 2025',
+    title: 'ResearcherBench',
+    date: '22 July 2025',
     category: 'Benchmark',
     researchDirection: 'Benchmark',
     description: 'A benchmark and evaluation framework for evaluating deep AI research systems on the frontiers of scientific inquiry.',
     image: '/img/researcherbench.png',
     link: 'https://researcherbench.github.io/',
+    external: true
+  },
+  {
+    title: 'Thinking with Generated Images',
+    date: '28 May 2025',
+    category: 'Foundation Model',
+    researchDirection: 'Foundation Model',
+    description: 'A single LMM (Large Multimodal Model) that spontaneously generates and reasons with intermediate visual thoughts via a native long-multimodal thought process.',
+    image: '/img/thinking_with_generated_images.png',
+    link: 'https://github.com/GAIR-NLP/thinking-with-generated-images',
+    external: true
+  },
+  {
+    title: 'Efficient Agent Training for Computer Use',
+    date: '20 May 2025',
+    category: 'Agents',
+    researchDirection: 'Agents',
+    description: 'An efficient agent training framework that elicits strong computer use capabilities with remarkable data efficiency.',
+    image: '/img/pc-agent-e.png',
+    link: 'https://gair-nlp.github.io/PC-Agent-E/',
     external: true
   }
 ];
