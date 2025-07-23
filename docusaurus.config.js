@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ASI4AI',
-  tagline: '通过前沿研究和创新应用构建人工智能的未来',
+  tagline: 'Igniting the Intelligence Explosion',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -23,11 +23,11 @@ const config = {
   url: 'https://asi4ai.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/ASI4AI',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'SII-GAIR', // Usually your GitHub org/user name.
+  organizationName: 'GAIR-NLP', // Usually your GitHub org/user name.
   projectName: 'AI4ASI', // Usually your repo name.
 
   onBrokenLinks: 'throw',
