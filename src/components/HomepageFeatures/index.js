@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 const NewsList = [
   {
     title: 'AlphaGo Moment for Model Architecture Discovery',
-    date: '24 Jun 2025',
+    date: '24 July 2025',
     category: 'Model Architecture',
     researchDirection: 'Model Architecture',
     description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',

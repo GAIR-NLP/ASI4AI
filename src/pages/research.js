@@ -35,7 +35,7 @@ const researchDirections = {
       {
         title: 'AlphaGo Moment for Model Architecture Discovery',
         description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',
-        date: '24 Jun 2025',
+        date: '24 July 2025',
         image: '/img/asi-arch.png',
         link: 'https://github.com/GAIR-NLP/ASI-Arch',
         external: true
