@@ -23,12 +23,12 @@ const config = {
   url: 'https://gair-nlp.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/AI4ASI',
+  baseUrl: '/ASI4AI',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'GAIR-NLP', // Usually your GitHub org/user name.
-  projectName: 'AI4ASI', // Usually your repo name.
+  projectName: 'ASI4AI', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
