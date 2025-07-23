@@ -1,0 +1,260 @@
+.aboutPage {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+/* Hero Section Styles - matching Research and Blog pages */
+.heroSection {
+  text-align: center;
+  margin-bottom: 60px;
+  padding: 40px 0;
+  background: var(--dm-background);
+}
+
+.pageTitle {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--dm-text-primary);
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #1a1a1a 0%, #4285f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pageSubtitle {
+  font-size: 1.2rem;
+  color: var(--dm-text-secondary);
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contentSection {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Mission Section */
+.missionSection {
+  margin-bottom: 4rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.missionText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Vision Section */
+.visionSection {
+  margin-bottom: 4rem;
+}
+
+.visionText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Team Section */
+.teamSection {
+  margin-bottom: 4rem;
+}
+
+.teamIntro {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4a5568;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+}
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.teamMember {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #f1f5f9;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.teamMember:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+}
+
+.memberPhoto {
+  margin-bottom: 1.5rem;
+}
+
+.photoPlaceholder {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.memberInfo {
+  text-align: center;
+}
+
+.memberName {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 0.5rem 0;
+}
+
+.memberRole {
+  font-size: 1rem;
+  color: #667eea;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+}
+
+.memberBio {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #6b7280;
+  margin: 0 0 1.5rem 0;
+}
+
+.memberExpertise {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.expertiseTag {
+  background: #f3f4f6;
+  color: #6b7280;
+  padding: 0.3rem 0.8rem;
+  border-radius: 16px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Values Section */
+.valuesSection {
+  margin-bottom: 4rem;
+}
+
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.valueItem {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.valueIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.valueTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0 0 1rem 0;
+}
+
+.valueDescription {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  .heroSection {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+  }
+  
+  .pageTitle {
+    font-size: 2.5rem;
+  }
+  
+  .pageSubtitle {
+    font-size: 1rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .missionText,
+  .visionText,
+  .teamIntro {
+    font-size: 1rem;
+  }
+  
+  .teamGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .teamMember {
+    padding: 1.5rem;
+  }
+  
+  .valuesGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .valueItem {
+    padding: 1.5rem 1rem;
+  }
+} 

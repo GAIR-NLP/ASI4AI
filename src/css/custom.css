@@ -1,0 +1,109 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* DeepMind style colors - Light theme */
+  --dm-background: #ffffff;
+  --dm-card-background: #fafafa;
+  --dm-text-primary: #1a1a1a;
+  --dm-text-secondary: #666666;
+  --dm-accent-blue: #4285f4;
+  --dm-accent-purple: #8e24aa;
+  --dm-border: #e5e5e5;
+  --dm-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --dm-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  --dm-shadow-hover: 0 8px 24px rgba(66, 133, 244, 0.15);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Global light theme styles */
+html {
+  --ifm-background-color: var(--dm-background);
+  --ifm-background-surface-color: var(--dm-card-background);
+  --ifm-color-content: var(--dm-text-primary);
+  --ifm-color-content-secondary: var(--dm-text-secondary);
+}
+
+/* Force light theme */
+body {
+  background-color: var(--dm-background) !important;
+  color: var(--dm-text-primary) !important;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--dm-border);
+  box-shadow: var(--dm-shadow);
+}
+
+.footer {
+  background-color: var(--dm-card-background) !important;
+  border-top: 1px solid var(--dm-border);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dm-background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dm-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cccccc;
+}
+
+/* Locale dropdown - disable current language option */
+.navbar__item.dropdown .navbar__link[aria-current="page"] {
+  pointer-events: none;
+  color: var(--ifm-color-emphasis-500) !important;
+  cursor: default;
+}
+
+.dropdown__menu .dropdown__link[aria-current="page"] {
+  pointer-events: none;
+  color: var(--ifm-color-emphasis-500) !important;
+  cursor: default;
+  opacity: 0.6;
+}
+
+/* Alternative approach using CSS selector for current locale */
+html[lang="en"] .dropdown__menu .dropdown__link[lang="en"],
+html[lang="zh-Hans"] .dropdown__menu .dropdown__link[lang="zh-Hans"] {
+  pointer-events: none;
+  color: var(--ifm-color-emphasis-500) !important;
+  cursor: default;
+  opacity: 0.6;
+}
