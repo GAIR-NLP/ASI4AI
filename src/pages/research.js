@@ -18,7 +18,7 @@ const researchDirections = {
         title: 'Deep Cognition',
         description: 'We introduce Deep Cognition, a system that transforms the human role from giving instructions to cognitive oversight.',
         date: '22 July 2025',
-        image: useBaseUrl('/img/deep-cognition.png'),
+        image: '/img/deep-cognition.png',
         link: 'https://opensii.ai',
         external: true
       }
@@ -36,7 +36,7 @@ const researchDirections = {
         title: 'AlphaGo Moment for Model Architecture Discovery',
         description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',
         date: '24 Jun 2025',
-        image: useBaseUrl('/img/asi-arch.png'),
+        image: '/img/asi-arch.png',
         link: 'https://github.com/GAIR-NLP/ASI-Arch',
         external: true
       }
@@ -54,7 +54,7 @@ const researchDirections = {
         title: 'MegaScience',
         description: 'Pushing the frontiers of post-training datasets for science reasoning.',
         date: '23 July 2025',
-        image: useBaseUrl('/img/megascience.png'),
+        image: '/img/megascience.png',
         link: 'https://github.com/GAIR-NLP/MegaScience',
         external: true
       },
@@ -62,7 +62,7 @@ const researchDirections = {
         title: 'OctoThinker',
         description: 'Exploring how different early pre(mid)-training strategies could bring impact to post-training stages, especially during the period of Reinforcement Learning (RL).',
         date: '3 March 2025',
-        image: useBaseUrl('/img/octothinker.png'),
+        image: '/img/octothinker.png',
         link: 'https://github.com/GAIR-NLP/OctoThinker',
         external: true
       },
@@ -70,7 +70,7 @@ const researchDirections = {
         title: 'Thinking with Generated Images',
         description: 'A single LMM (Large Multimodal Model) that spontaneously generates and reasons with intermediate visual thoughts via a native long-multimodal thought process.',
         date: '28 May 2025',
-        image: useBaseUrl('/img/thinking_with_generated_images.png'),
+        image: '/img/thinking_with_generated_images.png',
         link: 'https://github.com/GAIR-NLP/thinking-with-generated-images',
         external: true
       }
@@ -88,7 +88,7 @@ const researchDirections = {
         title: 'Efficient Agent Training for Computer Use',
         description: 'An efficient agent training framework that elicits strong computer use capabilities with remarkable data efficiency.',
         date: '20 May 2025',
-        image: useBaseUrl('/img/pc-agent-e.png'),
+        image: '/img/pc-agent-e.png',
         link: 'https://gair-nlp.github.io/PC-Agent-E/',
         external: true
       },
@@ -96,7 +96,7 @@ const researchDirections = {
         title: 'DeepResearcher',
         description: 'Scaling deep research via reinforcement learning in real-world environments.',
         date: '4 Apr 2025',
-        image: useBaseUrl('/img/deepresearcher.png'),
+        image: '/img/deepresearcher.png',
         link: 'https://github.com/GAIR-NLP/DeepResearcher',
         external: true
       }
@@ -114,7 +114,7 @@ const researchDirections = {
         title: 'ResearcherBench',
         description: 'A benchmark and evaluation framework for evaluating deep AI research systems on the frontiers of scientific inquiry.',
         date: '22 July 2025',
-        image: useBaseUrl('/img/researcherbench.png'),
+        image: '/img/researcherbench.png',
         link: 'https://researcherbench.github.io/',
         external: true
       }
@@ -164,7 +164,7 @@ function ResearchSection({ direction }) {
               >
                 <div className={styles.projectImage}>
                   <img 
-                    src={project.image} 
+                    src={useBaseUrl(project.image)} 
                     alt={project.title}
                     onError={handleImageError}
                   />

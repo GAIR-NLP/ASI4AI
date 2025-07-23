@@ -9,188 +9,188 @@ const teamMembers = [
   {
     name: 'Pengfei Liu',
     role: 'Director',
-    avatar: useBaseUrl('/img/team/pengfei.jpg')
+    avatar: '/img/team/pengfei.jpg'
   },
   // Current Students (ordered by when they joined)
   {
     name: 'I-Chun Chern',
     role: 'PhD@SJTU',
-    avatar: useBaseUrl('/img/team/ethan.jpg')
+    avatar: '/img/team/ethan.jpg'
   },
   {
     name: 'Steffi Chern',
     role: 'Undergrad@CMU',
-    avatar: useBaseUrl('/img/team/steffi.png')
+    avatar: '/img/team/steffi.png'
   },
   {
     name: 'Shijie Xia',
     role: 'Incoming Ph.D',
-    avatar: useBaseUrl('/img/team/shijie.jpg')
+    avatar: '/img/team/shijie.jpg'
   },
   {
     name: 'Xuefeng Li',
     role: 'Incoming Ph.D',
-    avatar: useBaseUrl('/img/team/xuefeng.png')
+    avatar: '/img/team/xuefeng.png'
   },
   {
     name: 'Haoyang Zou',
     role: 'Undergrad@Fudan',
-    avatar: useBaseUrl('/img/team/haoyang.png')
+    avatar: '/img/team/haoyang.png'
   },
   {
     name: 'Zengzhi Wang',
     role: 'PhD@SJTU',
-    avatar: useBaseUrl('/img/team/zengzhiwang.png')
+    avatar: '/img/team/zengzhiwang.png'
   },
   {
     name: 'Runze Fan',
     role: 'Master@CAS',
-    avatar: useBaseUrl('/img/team/runzefan.png')
+    avatar: '/img/team/runzefan.png'
   },
   {
     name: 'Yan Ma',
     role: 'PhD',
-    avatar: useBaseUrl('/img/team/mayan.jpg')
+    avatar: '/img/team/mayan.jpg'
   },
   {
     name: 'Yiyuan Li',
     role: 'PhD@UNC',
-    avatar: useBaseUrl('/img/team/yiyuan.png')
+    avatar: '/img/team/yiyuan.png'
   },
   {
     name: 'Fan Zhou',
     role: 'Master@SJTU',
-    avatar: useBaseUrl('/img/team/fan.png')
+    avatar: '/img/team/fan.png'
   },
   {
     name: 'Ting Wu',
     role: 'RA@GAIR',
-    avatar: useBaseUrl('/img/team/tingwu.png')
+    avatar: '/img/team/tingwu.png'
   },
   {
     name: 'Huanyu Li',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/huanyu2.png')
+    avatar: '/img/team/huanyu2.png'
   },
   {
     name: 'Yixiu Liu',
     role: 'Master@SJTU',
-    avatar: useBaseUrl('/img/team/yixiu.png')
+    avatar: '/img/team/yixiu.png'
   },
   {
     name: 'Yuxiang Zheng',
     role: 'Master@SJTU',
-    avatar: useBaseUrl('/img/team/yuxiang.png')
+    avatar: '/img/team/yuxiang.png'
   },
   {
     name: 'Jiadi Su',
     role: 'PhD@FDU',
-    avatar: useBaseUrl('/img/team/jiadi.png')
+    avatar: '/img/team/jiadi.png'
   },
   {
     name: 'Yang Xiao',
     role: 'PhD@PolyU',
-    avatar: useBaseUrl('/img/team/xiaoyang.jpg')
+    avatar: '/img/team/xiaoyang.jpg'
   },
   {
     name: 'Yiwei Qin',
     role: 'Master@CMU',
-    avatar: useBaseUrl('/img/team/yiwei.jpg')
+    avatar: '/img/team/yiwei.jpg'
   },
   {
     name: 'Ruijie Xu',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/ruijie2.png')
+    avatar: '/img/team/ruijie2.png'
   },
   {
     name: 'Zhen Huang',
     role: 'Undergrad@SUDA',
-    avatar: useBaseUrl('/img/team/huangzhen.png')
+    avatar: '/img/team/huangzhen.png'
   },
   {
     name: 'Yixin Ye',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/yeyixin.jpg')
+    avatar: '/img/team/yeyixin.jpg'
   },
   {
     name: 'Zhulin Hu',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/zhulin.jpg')
+    avatar: '/img/team/zhulin.jpg'
   },
   {
     name: 'Pengrui Lu',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/pengrui.jpg')
+    avatar: '/img/team/pengrui.jpg'
   },
   {
     name: 'Yanheng He',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/yanheng.jpg')
+    avatar: '/img/team/yanheng.jpg'
   },
   {
     name: 'Jiahe Jin',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/jiahe.jpg')
+    avatar: '/img/team/jiahe.jpg'
   },
   {
     name: 'Dayuan Fu',
     role: 'Master@BUPT',
-    avatar: useBaseUrl('/img/team/dayuan.jpg')
+    avatar: '/img/team/dayuan.jpg'
   },
   {
     name: 'Tianze Xu',
     role: 'Undergrad@BUPT',
-    avatar: useBaseUrl('/img/team/tianze.png')
+    avatar: '/img/team/tianze.png'
   },
   {
     name: 'Tiantian Mi',
     role: 'Incoming PhD @ Fudan',
-    avatar: useBaseUrl('/img/team/tiantian.jpg')
+    avatar: '/img/team/tiantian.jpg'
   },
   {
     name: 'Lvmanshan Ye',
     role: 'Master@SJTU',
-    avatar: useBaseUrl('/img/team/yelv.jpg')
+    avatar: '/img/team/yelv.jpg'
   },
   {
     name: 'Xiaojie Cai',
     role: 'Master@SJTU',
-    avatar: useBaseUrl('/img/team/xiaojie.jpg')
+    avatar: '/img/team/xiaojie.jpg'
   },
   {
     name: 'Xiangkun Hu',
     role: 'SII',
-    avatar: useBaseUrl('/img/team/xiangkun.png')
+    avatar: '/img/team/xiangkun.png'
   },
   {
     name: 'Yang Nan',
     role: 'Undergrad@Fudan',
-    avatar: useBaseUrl('/img/team/nanyang.jpg')
+    avatar: '/img/team/nanyang.jpg'
   },
   {
     name: 'Ji Zeng',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/ji_zeng.jpg')
+    avatar: '/img/team/ji_zeng.jpg'
   },
   {
     name: 'Hanning Wang',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/hanning.jpg')
+    avatar: '/img/team/hanning.jpg'
   },
   {
     name: 'Weixian Xu',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/weixian.jpg')
+    avatar: '/img/team/weixian.jpg'
   },
   {
     name: 'Qishuo Hua',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/qishuo.jpg')
+    avatar: '/img/team/qishuo.jpg'
   },
   {
     name: 'Yumin Zhuang',
     role: 'Undergrad@SJTU',
-    avatar: useBaseUrl('/img/team/yumin.png')
+    avatar: '/img/team/yumin.png'
   }
 ];
 
@@ -248,7 +248,7 @@ export default function About() {
                     <div className={styles.memberPhoto}>
                       {member.avatar ? (
                         <img 
-                          src={member.avatar} 
+                          src={useBaseUrl(member.avatar)} 
                           alt={member.name}
                           className={styles.memberAvatar}
                           onError={(e) => {
