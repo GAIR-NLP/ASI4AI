@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const NewsList = [
@@ -10,7 +11,7 @@ const NewsList = [
     category: 'Model Architecture',
     researchDirection: 'Model Architecture',
     description: 'For the first time, AI discovers 106 new model architectures better than human-designed ones.',
-    image: '/img/asi-arch.png',
+    image: useBaseUrl('/img/asi-arch.png'),
     link: 'https://github.com/GAIR-NLP/ASI-Arch',
     external: true
   },
@@ -20,7 +21,7 @@ const NewsList = [
     category: 'Foundation Model',
     researchDirection: 'Foundation Model',
     description: 'Pushing the frontiers of post-training datasets for science reasoning.',
-    image: '/img/megascience.png',
+    image: useBaseUrl('/img/megascience.png'),
     link: 'https://github.com/GAIR-NLP/MegaScience',
     external: true
   },
@@ -30,7 +31,7 @@ const NewsList = [
     category: 'Interaction as Intelligence',
     researchDirection: 'Interaction',
     description: 'We introduce Deep Cognition, a system that transforms the human role from giving instructions to cognitive oversight.',
-    image: '/img/deep-cognition.png',
+    image: useBaseUrl('/img/deep-cognition.png'),
     link: 'https://opensii.ai',
     external: true
   },
@@ -40,7 +41,7 @@ const NewsList = [
     category: 'Benchmark',
     researchDirection: 'Benchmark',
     description: 'A benchmark and evaluation framework for evaluating deep AI research systems on the frontiers of scientific inquiry.',
-    image: '/img/researcherbench.png',
+    image: useBaseUrl('/img/researcherbench.png'),
     link: 'https://researcherbench.github.io/',
     external: true
   },
@@ -50,7 +51,7 @@ const NewsList = [
     category: 'Foundation Model',
     researchDirection: 'Foundation Model',
     description: 'A single LMM (Large Multimodal Model) that spontaneously generates and reasons with intermediate visual thoughts via a native long-multimodal thought process.',
-    image: '/img/thinking_with_generated_images.png',
+    image: useBaseUrl('/img/thinking_with_generated_images.png'),
     link: 'https://github.com/GAIR-NLP/thinking-with-generated-images',
     external: true
   },
@@ -60,7 +61,7 @@ const NewsList = [
     category: 'Agents',
     researchDirection: 'Agents',
     description: 'An efficient agent training framework that elicits strong computer use capabilities with remarkable data efficiency.',
-    image: '/img/pc-agent-e.png',
+    image: useBaseUrl('/img/pc-agent-e.png'),
     link: 'https://gair-nlp.github.io/PC-Agent-E/',
     external: true
   }

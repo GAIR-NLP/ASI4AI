@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
@@ -71,7 +72,7 @@ function HomepageHeader() {
             
             <div className={styles.mainCardMiddle}>
               <div className={styles.mainCardFigure}>
-                <img src="/img/asi4ai_blog/asi4ai_blog_cover.jpg" alt="ASI for AI Vision" />
+                <img src={useBaseUrl('/img/asi4ai_blog/asi4ai_blog_cover.jpg')} alt="ASI for AI Vision" />
               </div>
             </div>
             

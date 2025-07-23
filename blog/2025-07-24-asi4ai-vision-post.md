@@ -10,7 +10,7 @@ image: /img/asi4ai_blog_cover.jpg
 ---
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/asi4ai_blog/asi4ai_blog_cover.jpg" alt="ASI for AI - Igniting the Intelligence Explosion" style={{maxWidth: '80%', height: 'auto'}} />
+  <img src={require('/static/img/asi4ai_blog/asi4ai_blog_cover.jpg').default} alt="ASI for AI - Igniting the Intelligence Explosion" style={{maxWidth: '80%', height: 'auto'}} />
 </div>
 
 In 1965, the mathematician I.J. Good foresaw the final invention humanity would ever need to make: an "ultraintelligent machine" capable of designing even better machines, triggering an unstoppable "intelligence explosion."
@@ -24,7 +24,7 @@ Our vision is to turn this opportunity into reality. We call it **ASI for AI (AS
 ## The Paradigm Shift: From Linear Progress to Exponential Growth
 
 <div style={{textAlign: 'center'}}>
-  <img src="/img/asi4ai_blog/asi_acceleration_for_ai.png" alt="The Paradigm Shift: From Linear Progress to Exponential Growth" style={{maxWidth: '80%', height: 'auto'}} />
+  <img src={require('/static/img/asi4ai_blog/asi_acceleration_for_ai.png').default} alt="The Paradigm Shift: From Linear Progress to Exponential Growth" style={{maxWidth: '80%', height: 'auto'}} />
 </div>
 
 Traditional AI research is a human-powered endeavor. It crawls forward at the speed of human thought, with research cycles—hypothesis, experiment, analysis, publication—taking months or years. It’s a linear, methodical process, fundamentally constrained by its creators' cognitive limits.
